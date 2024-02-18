@@ -40,10 +40,7 @@
 
 #pfp {
     width: 300px;
-    border-radius: 20%;
-    margin: auto;
-    border: solid;
-    border-color: white;
+
     border-width: 3px;
 }
 

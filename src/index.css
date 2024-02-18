@@ -12,41 +12,10 @@ body {
 }
 
 body {
-  background-image: url("../public/images/nasa-ny.jpg"), linear-gradient(rgba(20, 20, 20, 0.92), rgb(20, 20, 20, 0.92));
+  background-image: url("../public/images/nasa-ny.jpg"), linear-gradient(rgba(20, 20, 20, 0.95), rgb(20, 20, 20, 0.95));
   background-blend-mode: overlay;
 }
 
-#header {
-  display: flex;
-  align-content: center;
-}
-
-li {
-  list-style-type: none;
-}
-
-#header li {
-  display: inline;
-}
-
-#header a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0.5em;
-  margin: 1em;
-}
-
-a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-#nav {
-  margin: auto;
-}
-
-#my-links {
-  display: inline;
-}
 
 #home {
   padding: 20px;
@@ -133,4 +102,9 @@ a:hover {
 
 #under-construction img {
   width: 500px;
+}
+
+.github-logo {
+  border-radius: 50%;
+  background-color: white;
 }

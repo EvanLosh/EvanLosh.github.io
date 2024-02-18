@@ -59,12 +59,9 @@ function App() {
 
       <Intro showIntro={showIntro} onIntroContinue={onIntroContinue} />
       <Header />
-
-
-
-
-      <RouterProvider router={routerConfig} />
-
+      <div id='router'>
+        <RouterProvider router={routerConfig} />
+      </div>
       <div id='white-space-at-the-bottom-of-the-page'></div>
     </div>
   );

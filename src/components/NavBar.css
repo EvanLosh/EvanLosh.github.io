@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    margin: auto;
+    padding: 35px;
+    padding-right: 0;
+    /* margin: 35px; */
+    /* margin-right: 0; */
+
+}
+
+#header .icon {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+
+#navlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 70%;
+    /* margin: auto; */
+    margin-right: 0;
+}

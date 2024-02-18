@@ -5,16 +5,14 @@ function Intro({ showIntro, onIntroContinue }) {
 
     // console.log(showIntro)
 
-    function openNewTab(url) {
-        window.open(url, '_blank').focus()
-    }
+
 
     console.log('Session storage is ' + showIntro)
 
     return (
         <div id='intro' className={showIntro ? 'show' : 'hide'}>
             <div id='intro-content'>
-                <img src='images/PXL_20240215_173649101.PORTRAIT~2-downscaled.jpg' alt='profile picture' id='pfp'></img>
+                <img src='images/PXL_20240215_173649101.PORTRAIT~2-downscaled.jpg' alt='profile picture' id='pfp' classNAme='portrait'></img>
 
                 <h1 >Evan Losh</h1>
                 <p>Full-stack software engineer</p>

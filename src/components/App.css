@@ -5,3 +5,69 @@
 #white-space-at-the-bottom-of-the-page {
     height: 500px;
 }
+
+#router {
+    max-width: 800px;
+    min-width: 600px;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 70%;
+    margin: auto;
+    /* border-bottom: solid; */
+    border-color: white;
+}
+
+#header-portrait-container {
+    margin: auto;
+}
+
+#header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h1 {
+    text-wrap: nowrap;
+    /* margin-right: 50px; */
+}
+
+#header a {
+    text-wrap: nowrap;
+    color: white;
+}
+
+
+
+#header .image-wrapper {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    margin-right: 30px;
+    border: solid;
+    border-color: white;
+}
+
+#header .portrait {
+    flex: none;
+    zoom: 20%;
+    transform: translate(-10px, -150px)
+}
+
+.portrait {
+    border-radius: 20%;
+    margin: auto;
+    border: solid;
+    border-color: white;
+}
