@@ -3,21 +3,41 @@ import Header from "./Header"
 import Home from "./Home"
 import About from "./About"
 import Intro from "./Intro.js"
+import Article from './Article.js'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyLinks from "./MyLinks"
+import './App.css'
 
 function App() {
 
-  const [showIntro, setShowIntro] = useState(sessionStorage.getItem('intro'))
+  console.log('Session storage is ' + sessionStorage.getItem('intro'))
 
-  if (showIntro === undefined) {
+  const [showIntro, setShowIntro] = useState(
+    // true
+    sessionStorage.getItem('intro')
+  )
+
+  // for UI testing only
+  // useEffect(() => {
+  //   sessionStorage.setItem('intro', true)
+  //   setShowIntro(true)
+  // }, [])
+  // end UI testing
+
+
+  if (
+    // showIntro !== false && 
+    showIntro === undefined) {
+    console.log('Setting session storage to true')
     sessionStorage.setItem('intro', true)
     setShowIntro(true)
   }
 
   function onIntroContinue() {
+    // console.log('Setting show Intro to false')
     sessionStorage.setItem('intro', false)
-    setShowIntro('intro', false)
+    console.log('sessionStorage show intro is ' + sessionStorage.getItem('intro'))
+    setShowIntro(false)
   }
 
   const routerConfig = createBrowserRouter([{
@@ -28,20 +48,24 @@ function App() {
     path: '/about',
     element: <About />
   },
+  {
+    path: '/article/:articleID',
+    element: <Article />
+  },
   ])
 
   return (
     <div className="App">
 
-      <Intro isIntro={showIntro} onContinue={onIntroContinue} />
+      <Intro showIntro={showIntro} onIntroContinue={onIntroContinue} />
       <Header />
 
-      <div id='content'>
 
 
-        <RouterProvider router={routerConfig} />
-      </div>
 
+      <RouterProvider router={routerConfig} />
+
+      <div id='white-space-at-the-bottom-of-the-page'></div>
     </div>
   );
 }

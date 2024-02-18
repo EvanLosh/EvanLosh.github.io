@@ -3,9 +3,13 @@ import './Intro.css'
 
 function Intro({ showIntro, onIntroContinue }) {
 
+    // console.log(showIntro)
+
     function openNewTab(url) {
         window.open(url, '_blank').focus()
     }
+
+    console.log('Session storage is ' + showIntro)
 
     return (
         <div id='intro' className={showIntro ? 'show' : 'hide'}>

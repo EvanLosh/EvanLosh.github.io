@@ -9,7 +9,9 @@ function Home() {
                 <p>filter cards by category</p>
             </div>
             <div className='card-container'>
-                <Card headline={'Dictionary App'} />
+                <Card headline={'CommEd: Write professional math easily!'} articleID={'CommEd'} />
+                <Card headline={'My portfolio website'} articleID={'MyPortfolio'} />
+                {/* <Card headline={'Dictionary App'} />
                 <Card headline={'Santa Chronicles'} />
                 <Card headline={'MeetMe: easily schedule meetings'} />
                 <Card headline={'Assignment sheet generator'} />
@@ -21,7 +23,7 @@ function Home() {
                 <Card headline={'LeetCode Solutions'} />
                 <Card headline={'2D physics simulator'} />
                 <Card headline={'The Autosaurus'} />
-                <Card headline={'LeetCode Solutions'} />
+                <Card headline={'LeetCode Solutions'} /> */}
             </div>
         </div>
     )
