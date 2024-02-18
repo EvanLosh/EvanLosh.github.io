@@ -25,7 +25,7 @@ function App() {
 
       <div id='content'>
 
-      <Intro />
+        <Intro />
 
         <RouterProvider router={routerConfig} />
       </div>
@@ -33,5 +33,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

@@ -111,3 +111,21 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+#under-construction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 500px;
+}
+
+#under-construction p {
+  font-size: 30px;
+  color: rgb(255, 196, 0);
+}
+
+#under-construction img {
+  width: 500px;
+}
