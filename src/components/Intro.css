@@ -1,0 +1,32 @@
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#intro-content {
+    max-width: 400px;
+    margin: 100px;
+}
+
+#intro-content * {
+    text-align: center;
+}
+
+#pfp {
+    width: 300px;
+    border-radius: 20%;
+    margin: auto;
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+#intro div button {
+    padding: 10px;
+    margin: 100px;
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 10px;
+}

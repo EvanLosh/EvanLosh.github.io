@@ -8,7 +8,7 @@ function Home() {
                 <p>filter cards for a string</p>
                 <p>filter cards by category</p>
             </div>
-            <div class='card-container'>
+            <div className='card-container'>
                 <Card headline={'Dictionary App'} />
                 <Card headline={'Santa Chronicles'} />
                 <Card headline={'MeetMe: easily schedule meetings'} />

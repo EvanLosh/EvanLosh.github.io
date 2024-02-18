@@ -1,4 +1,4 @@
-import TableOfContents from "./TableOfContents.js"
+import React, { useState, useEffect } from 'react'
 import Header from "./Header"
 import Home from "./Home"
 import About from "./About"
@@ -7,6 +7,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyLinks from "./MyLinks"
 
 function App() {
+
+  const [showIntro, setShowIntro] = useState(sessionStorage.getItem('intro'))
+
+  if (showIntro === undefined) {
+    sessionStorage.setItem('intro', true)
+    setShowIntro(true)
+  }
+
+  function onIntroContinue() {
+    sessionStorage.setItem('intro', false)
+    setShowIntro('intro', false)
+  }
 
   const routerConfig = createBrowserRouter([{
     path: '/',
@@ -21,11 +33,11 @@ function App() {
   return (
     <div className="App">
 
+      <Intro isIntro={showIntro} onContinue={onIntroContinue} />
       <Header />
 
       <div id='content'>
 
-        <Intro />
 
         <RouterProvider router={routerConfig} />
       </div>
