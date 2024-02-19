@@ -8,83 +8,25 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #e0e0e0;
+}
 
+code,
+.code {
+  font-family: 'Courier New', Courier, monospace
 }
 
 body {
-  background-image: url("../public/images/nasa-ny.jpg"), linear-gradient(rgba(20, 20, 20, 0.95), rgb(20, 20, 20, 0.95));
-  background-blend-mode: overlay;
-}
-
-
-#home {
-  padding: 20px;
-}
-
-.card {
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color: blue;
-  border: solid;
-  padding: 10px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-.card:hover {
-  background-color: rgb(0, 0, 255, 1.0);
-}
-
-.card-thumbnail {
-  height: 120px;
-  background-color: aqua;
-  border-radius: 5px;
-}
-
-.card-container {
-  max-width: 730px;
-  display: flex;
-  flex-wrap: wrap;
+  background-image: url("../public/images/nasa-nyc-unsplash-edited.jpg");
 }
 
 
 
-#card-filter {
-  height: 200px;
-  border: solid;
-}
 
-#content {
-  max-width: 1070px;
-  display: flex;
-  margin: auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.3)
-}
 
-#intro {
-  min-width: 300px;
-  padding: 20px;
-}
 
-#intro-links {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-}
 
-.thumbnail-text {
-  padding: 5px;
-  margin: 0px;
-  color: #222;
-}
 
-.headline {
-  margin: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+
 
 #under-construction {
   display: flex;
@@ -104,7 +46,7 @@ body {
   width: 500px;
 }
 
-.github-logo {
+/* .github-logo {
   border-radius: 50%;
   background-color: white;
-}
+} */

@@ -17,16 +17,16 @@ function NavBar() {
 
 
             <div id='navlist'>
-                <div className="navlink"><a href="/">Portfolio</a></div>
-                <div className="navlink"><a href="/about">About Me</a></div>
+                <div className="navlink link"><a href="/">Portfolio</a></div>
+                <div className="navlink link"><a href="/about">About Me</a></div>
 
-                <div className='icon' onClick={() => openNewTab('https://github.com/EvanLosh')}>
+                <div className='icon link' onClick={() => openNewTab('https://github.com/EvanLosh')}>
                     <FontAwesomeIcon icon={faGithub} />
                 </div>
-                <div className='icon' onClick={() => openNewTab('https://www.linkedin.com/in/evan-losh/')}>
+                <div className='icon link' onClick={() => openNewTab('https://www.linkedin.com/in/evan-losh/')}>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </div>
-                <div className='icon' onClick={() => openNewTab('https://medium.com/@evand.losh')}>
+                <div className='icon link' onClick={() => openNewTab('https://medium.com/@evand.losh')}>
                     <FontAwesomeIcon icon={faMedium} />
                 </div>
                 <div>

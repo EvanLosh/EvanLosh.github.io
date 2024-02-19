@@ -1,12 +1,14 @@
 import React from "react"
+import './Card.css'
 
-function Card({ headline, articleID }) {
+function Card({ cardData }) {
     return (
-        <div className='card' onClick={() => window.open(`/article/${articleID}`, "_blank").focus()}>
+        <div className='card' onClick={() => window.open(`/article/${cardData.articleID}`, "_blank").focus()}>
             <div className='card-thumbnail'>
-                <p className='thumbnail-text'>thumbnail</p>
+                <img alt={cardData.headline + 'thumbnail'} src={cardData.thumbnail}></img>
+                {/* <p className='thumbnail-text'>thumbnail</p> */}
             </div>
-            <p className='headline'>{headline}</p>
+            <p className='headline'>{cardData.headline}</p>
         </div>
     )
 }

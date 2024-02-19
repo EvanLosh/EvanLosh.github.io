@@ -1,0 +1,17 @@
+#home {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+#card-filter {
+    height: 200px;
+    border: solid;
+}
+
+#content {
+    max-width: 1070px;
+    display: flex;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.3)
+}
