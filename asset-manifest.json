@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9b2c345.css",
-    "main.js": "/static/js/main.a3ac00c2.js",
-    "static/js/787.295f8b1d.chunk.js": "/static/js/787.295f8b1d.chunk.js",
+    "main.css": "/static/css/main.9d1c655f.css",
+    "main.js": "/static/js/main.58d58404.js",
+    "static/media/nasa-nyc-unsplash-edited.jpg": "/static/media/nasa-nyc-unsplash-edited.5f59d9a9bc7c1a0645d6.jpg",
     "index.html": "/index.html",
-    "main.a9b2c345.css.map": "/static/css/main.a9b2c345.css.map",
-    "main.a3ac00c2.js.map": "/static/js/main.a3ac00c2.js.map",
-    "787.295f8b1d.chunk.js.map": "/static/js/787.295f8b1d.chunk.js.map"
+    "main.9d1c655f.css.map": "/static/css/main.9d1c655f.css.map",
+    "main.58d58404.js.map": "/static/js/main.58d58404.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9b2c345.css",
-    "static/js/main.a3ac00c2.js"
+    "static/css/main.9d1c655f.css",
+    "static/js/main.58d58404.js"
   ]
 }
