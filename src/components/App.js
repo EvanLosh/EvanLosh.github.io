@@ -6,6 +6,7 @@ import Intro from "./Intro.js"
 import Article from './Article.js'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
+import ErrorBoundary from './ErrorBoundary.js'
 
 function App() {
 
@@ -19,9 +20,17 @@ function App() {
   },
   {
     path: '/article/:articleID',
-    element: <Article />
+    element: <Article />,
+    errorElement: <ErrorBoundary errorMessage='Invalid article ID' />
   },
   ])
+
+
+  const addCliackableClassToANodes = () => {
+    [...document.querySelectorAll('a')].forEach(a => a.classList.add('clickable'))
+  }
+
+  // addCliackableClassToANodes()
 
   return (
     <div className="App">

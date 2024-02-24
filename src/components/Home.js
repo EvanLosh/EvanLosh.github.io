@@ -6,16 +6,16 @@ function Home() {
 
     const cardData = [
         {
-            headline: 'CommEd: easily type up and share your math homework!',
+            headline: 'CommEd: easily type up and share solutions to math problems!',
             articleID: 'CommEd',
             category: 'Project Web Software Front-end Back-end',
-            thumbnail: 'images/comm-ed-thumbnail.png',
+            thumbnail: '/images/math01-unsplash-downscaled.jpg',
         },
         {
             headline: 'My portfolio website',
             articleID: 'MyPortfolio',
             category: 'Project Web Software Front-end',
-            thumbnail: 'images/my-portfolio-thumbnail.png',
+            thumbnail: 'images/my-portfolio-tilted-cropped-adjusted.png',
         }
     ]
 
@@ -23,11 +23,12 @@ function Home() {
 
     return (
         <div id='home'>
-            <div id='card-filter'>
+            {/* <div id='card-filter'>
                 <p>TODO: search for cards with a string</p>
                 <p>TODO: filter cards by category</p>
                 <p>TODO: Sort cards</p>
-            </div>
+            </div> */}
+            <h1>My projects</h1>
             <div className='card-container'>
                 {cardElements}
             </div>

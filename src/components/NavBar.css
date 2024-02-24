@@ -21,9 +21,13 @@
 #navlist {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     min-width: 500px;
     max-width: 70%;
     /* margin: auto; */
     margin-right: 0;
+}
+
+#navlist>* {
+    margin: 20px;
 }

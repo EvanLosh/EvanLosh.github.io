@@ -19,7 +19,7 @@ function Intro() {
             </div>
             <div>
 
-                <button onClick={onIntroContinue}>View portfolio</button>
+                <button className='clickable' onClick={onIntroContinue}>View portfolio</button>
             </div>
         </div>
     )

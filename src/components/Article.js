@@ -4,10 +4,12 @@ import CommEdArticle from "./articles/CommEdArticle"
 import MyPortfolioArticle from "./articles/MyPortfolioArticle"
 import './Article.css'
 
+
+
+
 function Article() {
 
     const { articleID } = useParams()
-
     let selectedArticle = null
     switch (articleID) {
         case 'CommEd':
@@ -15,12 +17,14 @@ function Article() {
         case 'MyPortfolio':
             selectedArticle = <MyPortfolioArticle />; break;
         default:
-            break;
+            selectedArticle = <div id="invalid-article-id">
+                <h1>Invalid article ID</h1>
+                <p><a href='/'>Return home</a></p>
+            </div>; break;
     }
 
     return (
         <div id="article">
-            {/* <h1 >Article</h1> */}
             {selectedArticle}
         </div>
     )

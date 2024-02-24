@@ -4,6 +4,10 @@
     padding: 20px;
 }
 
+#home h1 {
+    text-align: center;
+}
+
 #card-filter {
     height: 200px;
     border: solid;

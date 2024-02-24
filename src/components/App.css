@@ -15,10 +15,6 @@
     border-color: white;
 }
 
-.link:hover {
-    background-color: rgb(255, 255, 255, 0.2);
-}
-
 .thumbnail-text {
     padding: 5px;
     margin: 0px;
@@ -29,4 +25,75 @@
     margin: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.my-name-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.my-name-logo h1,
+.my-name-logo div {
+    display: block;
+    margin: 0;
+}
+
+.open-to-work {
+    display: inline-block;
+    /* background: linear-gradient(to right, rgb(0, 100, 0, 0), rgb(0, 100, 0, 1) 10%, rgb(0, 100, 0, 1) 90%, rgb(0, 100, 0, 0)) */
+}
+
+
+
+.open-to-work * {
+    text-wrap: nowrap;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.open-to-work-middle {
+    background: rgb(0, 100, 0, 1);
+}
+
+.open-to-work-left {
+    width: 28px;
+    height: 18.67px;
+    background: linear-gradient(to right, rgb(0, 100, 0, 0), rgb(0, 100, 0, 1))
+}
+
+.open-to-work-right {
+    width: 28px;
+    height: 18.67px;
+    background: linear-gradient(to right, rgb(0, 100, 0, 1), rgb(0, 100, 0, 0))
+}
+
+.clickable:hover {
+    /* background-color: rgb(0, 0, 255, 1.0); */
+    scale: 110%;
+    /* box-shadow: 3px 3px 2px rgb(255, 255, 255, 0.8); */
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.github.icon {
+    color: white;
+    background: black;
+    border-radius: 50%;
+}
+
+.linkedin.icon {
+    color: blue;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0) 10%, rgb(255, 255, 255, 1)15%, rgb(255, 255, 255, 1) 85%, rgb(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0));
+}
+
+.medium.icon {
+    color: white;
+    background: black;
 }
