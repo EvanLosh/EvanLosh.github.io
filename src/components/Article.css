@@ -1,6 +1,6 @@
 #article,
 #about {
-    min-width: 400px;
+    min-width: 360px;
     max-width: 700px;
     margin: auto;
 }
