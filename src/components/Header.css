@@ -51,10 +51,6 @@
     border-color: white;
 }
 
-/* #header .image-wrapper:hover {
-    border-color: blue;
-} */
-
 #header .portrait {
     flex: none;
     zoom: 20%;

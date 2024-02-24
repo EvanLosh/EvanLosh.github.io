@@ -13,6 +13,7 @@ function MyPortfolioArticle() {
                 <li>Use of sessionStorage to show/hide certain components</li>
                 <li>CSS animations</li>
                 <li>Responsive UI</li>
+                <li>FortAwesome's SVG brand icons</li>
             </ul>
 
         </div>

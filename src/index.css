@@ -6,7 +6,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Open Sans;
+  line-height: 1.5;
   color: #e0e0e0;
 }
 
@@ -18,14 +19,6 @@ code,
 body {
   background-image: url("../public/images/nasa-nyc-unsplash-edited.jpg");
 }
-
-
-
-
-
-
-
-
 
 
 #under-construction {
@@ -45,8 +38,3 @@ body {
 #under-construction img {
   width: 500px;
 }
-
-/* .github-logo {
-  border-radius: 50%;
-  background-color: white;
-} */

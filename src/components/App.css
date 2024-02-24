@@ -45,8 +45,6 @@
     /* background: linear-gradient(to right, rgb(0, 100, 0, 0), rgb(0, 100, 0, 1) 10%, rgb(0, 100, 0, 1) 90%, rgb(0, 100, 0, 0)) */
 }
 
-
-
 .open-to-work * {
     text-wrap: nowrap;
     text-align: center;
@@ -61,13 +59,13 @@
 
 .open-to-work-left {
     width: 28px;
-    height: 18.67px;
+    height: 24px;
     background: linear-gradient(to right, rgb(0, 100, 0, 0), rgb(0, 100, 0, 1))
 }
 
 .open-to-work-right {
     width: 28px;
-    height: 18.67px;
+    height: 24px;
     background: linear-gradient(to right, rgb(0, 100, 0, 1), rgb(0, 100, 0, 0))
 }
 
@@ -89,11 +87,28 @@
 }
 
 .linkedin.icon {
-    color: blue;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0) 10%, rgb(255, 255, 255, 1)15%, rgb(255, 255, 255, 1) 85%, rgb(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0));
+    color: #004b8d;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0) 20%, rgb(255, 255, 255, 1)25%, rgb(255, 255, 255, 1) 75%, rgb(0, 0, 0, 0) 80%, rgb(0, 0, 0, 0));
 }
 
 .medium.icon {
     color: white;
     background: black;
+    /* border: solid;
+    border-color: white; */
+}
+
+
+#about .icon {
+    font-size: 40px;
+    padding: 0;
+
+}
+
+#about-linkedin-icon-row {
+    display: flex;
+}
+
+#about-linkedin-icon-row>.whitespace {
+    width: 100%;
 }
