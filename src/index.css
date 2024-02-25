@@ -17,7 +17,8 @@ code,
 }
 
 body {
-  background-image: url("../public/images/nasa-nyc-unsplash-edited.jpg");
+  /* background-image: url("../public/images/nasa-nyc-unsplash-edited.jpg"); */
+  background-color: rgb(216, 212, 203);
 }
 
 

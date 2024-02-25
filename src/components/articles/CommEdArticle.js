@@ -3,7 +3,7 @@ import React from "react"
 function CommEdArticle() {
     return (
         <div>
-            <h1 id="comm-ed-article">CommEd</h1>
+            <h1 id="comm-ed-article">CommEd (<a href='https://github.com/EvanLosh/CommEd'>https://github.com/EvanLosh/CommEd</a>)</h1>
             <p>CommEd is a web app that allows users to easily perform professional-quality typesetting of math using the <a href='https://en.wikipedia.org/wiki/TeX' >TeX</a> system. It's also a forum where users can share, find, and discuss solutions to math problems. CommEd is useful to students and teachers of Math, Engineering, Physics, Chemistry, and other subjects from the highschool level to graduate and professional levels.</p>
 
             <p>This was my capstone project for FlatIron School's bootcamp for software engineering. I was inspired to make CommEd by my own experience doing math and physics homework in college and grad school. I wanted my work to look as professional as textbooks and academic papers, but the means to do so were quite inconvenient. I was also inspired to create a conveniently searchable collection of problem solutions from which everyone is free to learn.</p>

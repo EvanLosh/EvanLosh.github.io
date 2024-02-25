@@ -33,14 +33,9 @@ function App() {
   // addCliackableClassToANodes()
 
   return (
-    <div className="App">
+    <div id="app">
 
-      {sessionStorage.getItem('hideIntro') ? null : <Intro />}
-      <Header />
-      <div id='router'>
-        <RouterProvider router={routerConfig} />
-      </div>
-      <div id='white-space-at-the-bottom-of-the-page'></div>
+      <span id='this-page-has-been-moved'>This site has moved to <a href='https://evan-losh.netlify.app'>https://evan-losh.netlify.app</a></span>
     </div>
   );
 }
