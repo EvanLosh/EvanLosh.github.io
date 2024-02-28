@@ -28,8 +28,3 @@
     object-fit: cover;
 }
 
-.card-container {
-    max-width: 730px;
-    display: flex;
-    flex-wrap: wrap;
-}

@@ -6,10 +6,22 @@ function Home() {
 
     const cardData = [
         {
-            headline: 'CommEd: easily type up and share solutions to math problems!',
+            headline: 'CommEd: easily type up and share solutions to math problems',
             articleID: 'CommEd',
             category: 'Project Web Software Front-end Back-end',
             thumbnail: '/images/math01-unsplash-downscaled.jpg',
+        },
+        {
+            headline: 'MeetMe: invite users through a dynamic and interactive calendar',
+            articleID: 'MeetMe',
+            category: 'Project Web Software Front-end Back-end',
+            thumbnail: '/images/debby-hudson-L29ymwjVvE4-unsplash-cropped-downsized.jpg',
+        },
+        {
+            headline: "Dictionary App: Look up words in Merriam-Webster's API",
+            articleID: 'DictionaryApp',
+            category: 'Project Web Software Front-end',
+            thumbnail: '/images/mick-haupt-BqQd3QFTXXM-unsplash-downsized.jpg',
         },
         {
             headline: 'My portfolio website',
@@ -29,8 +41,11 @@ function Home() {
                 <p>TODO: Sort cards</p>
             </div> */}
             <h1>My projects</h1>
-            <div className='card-container'>
-                {cardElements}
+            <div className='card-container-outer'>
+                <div className='card-container-inner'>
+                    {cardElements}
+
+                </div>
             </div>
             <h1>More entries coming soon!</h1>
         </div>
