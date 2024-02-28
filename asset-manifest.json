@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d42839f1.css",
-    "main.js": "/static/js/main.478493c4.js",
+    "main.css": "/static/css/main.07dbbccb.css",
+    "main.js": "/static/js/main.7567736b.js",
+    "static/media/nasa-nyc-unsplash-edited.jpg": "/static/media/nasa-nyc-unsplash-edited.5f59d9a9bc7c1a0645d6.jpg",
     "index.html": "/index.html",
-    "main.d42839f1.css.map": "/static/css/main.d42839f1.css.map",
-    "main.478493c4.js.map": "/static/js/main.478493c4.js.map"
+    "main.07dbbccb.css.map": "/static/css/main.07dbbccb.css.map",
+    "main.7567736b.js.map": "/static/js/main.7567736b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42839f1.css",
-    "static/js/main.478493c4.js"
+    "static/css/main.07dbbccb.css",
+    "static/js/main.7567736b.js"
   ]
 }
