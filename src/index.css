@@ -16,8 +16,9 @@ code,
   font-family: 'Courier New', Courier, monospace
 }
 
-body {
-  background-image: url("../public/images/nasa-nyc-unsplash-edited.jpg");
+#root {
+  background-image: url("../public/images/css-pattern-by-magicpattern.png");
+  background-repeat: repeat;
 }
 
 

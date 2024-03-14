@@ -28,10 +28,7 @@ function NavBar() {
                 <div className='icon clickable medium' onClick={() => openNewTab('https://medium.com/@evand.losh')}>
                     <FontAwesomeIcon icon={faMedium} />
                 </div>
-                <div>
 
-
-                </div>
             </div>
         </div >
 

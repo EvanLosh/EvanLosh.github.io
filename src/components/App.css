@@ -73,7 +73,7 @@
     /* background-color: rgb(0, 0, 255, 1.0); */
     scale: 110%;
     /* box-shadow: 3px 3px 2px rgb(255, 255, 255, 0.8); */
-    background-color: rgb(255, 255, 255, 0.2);
+    /* background-color: rgb(255, 255, 255, 0.2); */
 }
 
 .clickable {
@@ -81,14 +81,21 @@
 }
 
 .github.icon {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     border-radius: 50%;
+    height: 37px;
+    width: 37px;
+}
+
+.github.icon>* {
+    transform: translate(-2%, -29.5%);
+
 }
 
 .linkedin.icon {
     color: #004b8d;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0) 20%, rgb(255, 255, 255, 1)25%, rgb(255, 255, 255, 1) 75%, rgb(0, 0, 0, 0) 80%, rgb(0, 0, 0, 0));
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0) 15%, rgb(255, 255, 255, 1)20%, rgb(255, 255, 255, 1) 75%, rgb(0, 0, 0, 0) 80%, rgb(0, 0, 0, 0));
 }
 
 .medium.icon {
@@ -111,4 +118,17 @@
 
 #about-linkedin-icon-row>.whitespace {
     width: 100%;
+}
+
+.icon {
+    height: 40px;
+    border-radius: 3px;
+}
+
+.icon.linkedin {
+    width: 30px;
+}
+
+.icon>* {
+    transform: translate(0, -25%);
 }

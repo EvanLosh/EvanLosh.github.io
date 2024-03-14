@@ -10,24 +10,28 @@ function Home() {
             articleID: 'CommEd',
             category: 'Project Web Software Front-end Back-end',
             thumbnail: '/images/math01-unsplash-downscaled.jpg',
+            additionalCSSClass: 'highlighted',
         },
         {
             headline: 'MeetMe: invite users through a dynamic and interactive calendar',
             articleID: 'MeetMe',
             category: 'Project Web Software Front-end Back-end',
             thumbnail: '/images/debby-hudson-L29ymwjVvE4-unsplash-cropped-downsized.jpg',
+            additionalCSSClass: '',
         },
         {
             headline: "Dictionary App: Look up words in Merriam-Webster's API",
             articleID: 'DictionaryApp',
             category: 'Project Web Software Front-end',
             thumbnail: '/images/mick-haupt-BqQd3QFTXXM-unsplash-downsized.jpg',
+            additionalCSSClass: '',
         },
         {
             headline: 'My portfolio website',
             articleID: 'MyPortfolio',
             category: 'Project Web Software Front-end',
             thumbnail: 'images/my-portfolio-tilted-cropped-adjusted.png',
+            additionalCSSClass: '',
         }
     ]
 
