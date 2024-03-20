@@ -10,6 +10,7 @@ function Card({ cardData }) {
                 {/* <p className='thumbnail-text'>thumbnail</p> */}
             </div>
             <p className='headline'>{cardData.headline}</p>
+            {cardData.articleID === 'CommEd' ? <p className='start-here'>Start here!</p> : null}
         </div>
     )
 }
