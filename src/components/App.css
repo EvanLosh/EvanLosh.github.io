@@ -81,8 +81,8 @@
 }
 
 .github.icon {
-    color: black;
-    background: white;
+    color: rgb(27, 27, 27);
+    background: rgb(231, 231, 231);
     border-radius: 50%;
     height: 37px;
     width: 37px;

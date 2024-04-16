@@ -17,8 +17,8 @@ code,
 }
 
 #root {
-  background-image: url("../public/images/css-pattern-by-magicpattern.png");
-  background-repeat: repeat;
+  /* background: radial-gradient(#ff8a00, #e52e71); */
+  background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(0, 182, 218) 100%);
 }
 
 

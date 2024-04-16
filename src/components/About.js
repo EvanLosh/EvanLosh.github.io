@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function About() {
 
@@ -14,11 +14,34 @@ function About() {
             <div>
 
                 <h1>About Me</h1>
-                <p>I graduated from Flatiron School's bootcamp for software engineering in February 2024. I chose to do this bootcamp because I was in dire need of a career change. Previously, I was a medical secretary (officially "office clerk") at Monroe Community Hospital for three years. While I loved the MCH community, I wanted a career with technical challenges and room to grow. So, I researched careers and concluded that software engineering suits me best. Now I am seeking my first job creating software.</p>
 
-                <p>What sets me apart from other software engineers is my education in physics. I have a bachelor's from SUNY Geneseo and I completed some coursework towards a PhD at UC Santa Barbara. I simultaneously worked as a teaching assistant. During that time, I honed my skills in math, science, analytical problem solving, and communication. </p>
+                <p>Hi, I'm Evan! 👋</p>
 
-                <p>I am always happy to discuss programming, among other things. Message me on LinkedIn to start a conversation.</p>
+                <p> As a passionate software engineer, I thrive on building full-stack web applications using Python, JavaScript, and React. My biggest project is CommEd, a forum and typesetting tool for math education. But let me share a bit more about my journey: </p>
+
+                <h2>Educational background</h2>
+
+                <p>I earned a BA in Physics, which honed my analytical thinking and problem-solving skills. Physics taught me to break down complex concepts into manageable pieces—a valuable asset in software development.</p>
+
+                <h2>Diverse experience</h2>
+
+                <p>
+                    I've had the privilege of being a university teaching assistant and a tutor. Guiding students, demystifying intricate topics, and witnessing their “aha” moments fueled my desire to contribute to education.
+                    <br></br>
+                    When I worked as a healthcare office clerk, I honed my communication and customer service skills daily while assisting patients, their families, nurses, doctors, therapists, dieticians, social workers, administrators and others.
+                </p>
+
+                <h2>Why software?</h2>
+
+                <p>To me, creating software is a way to impact people, empower people, and enrich the lives of people wherever they are in the world, and that's what I would like to do. I also enjoy building things, learning new skills, overcoming mathematical and technical challenges, and taking part in skilled and driven teams to build things I couldn't build alone.</p>
+
+                <p>I embarked on an adventure with Flatiron School's software engineering bootcamp. For three months, I was immersed in learning skills for building projects, actually building projects, and collaborating with people who shared my interests. It was exhilirating! </p>
+
+                <h2>Contact me</h2>
+
+                <p>So, here I am—ready to learn, code, collaborate, and make a difference. Message me on LinkedIn, and let's build something remarkable! 🚀💻✨</p>
+
+
             </div>
             <div id='about-linkedin-icon-row'>
 
